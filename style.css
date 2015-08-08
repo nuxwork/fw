@@ -1,0 +1,10 @@
+.box{  
+    font-size: 80px;  
+    line-height: 200px;  
+    text-align: center;  
+    background-repeat:no-repeat;
+    background: -webkit-radial-gradient(#feb3ad, #fd695d); 
+    background: -o-radial-gradient(#feb3ad, #fd695d);
+    background: -moz-radial-gradient(#feb3ad, #fd695d);
+    background: radial-gradient(#feb3ad, #fd695d);
+}
