@@ -1,0 +1,46 @@
+.fly-divider-horizantal{
+  background-color: #2C3E50;
+  width: 100%;
+  height: 1px;
+}
+
+.fly-divider-vertical{
+  background-color: #2C3E50;
+  width: 1px;
+  height: 100%;
+}
+
+.fly-alpha {  
+  filter:alpha(opacity=50);  
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+.fly-todo{
+  width: 100%;
+  height: 100%;
+  background-color: #34495E;
+  border-radius: 6px;
+  padding: 0px;
+}
+
+.fly-todo-item{
+  color: white;
+  font-size: 1em;
+  text-align:left;
+  margin: 0px;
+  padding: 15px;
+}
+
+.fly-todo-item:hover{
+  background-color: #2C3E50;
+  border-radius: 6px;
+}
+
+.fly-todo-priority{
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-top: -3px;
+}

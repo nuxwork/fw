@@ -10,7 +10,9 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" >
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="style.css"/>
+    <!-- Loading Flat UI -->
+    <link rel="stylesheet" href="./flat-ui/css/flat-ui.min.css" >
+    <link rel="stylesheet" href="./css/flyway.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,14 +28,20 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="./flat-ui/js/vendor/video.js"></script>-->
+    <script src="./flat-ui/js/flat-ui.min.js"></script>
+    <script src="./flat-ui/js/application.js"></script>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <?php require_once 'todo.php' ?>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-2">
           
+        </div>
+        <div class="col-md-7">
         </div>
       </div>
     </div>
