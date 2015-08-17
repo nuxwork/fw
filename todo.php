@@ -11,9 +11,9 @@
 
 
   <div id="context-menu">
-	  <ul class="dropdown-menu" role="menu">
-	    <li><a tabindex="-1">Action</a></li>
-	    <li><a tabindex="-1">Separated</a></li>
+	  <ul class="dropdown-menu context-menu" role="menu">
+	  	<li class="context-menu-item" oncontextmenu='return false'>Finish</li>
+	  	<li class="context-menu-item" oncontextmenu='return false'>Delete</li>
 	  </ul>
 	</div>
 </div>

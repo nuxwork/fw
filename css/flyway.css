@@ -44,3 +44,24 @@
   margin-right: 5px;
   margin-top: -3px;
 }
+
+.context-menu{
+  background-color: #34495E;
+  color: white;
+  cursor:default;
+  padding: 0px;
+}
+
+.context-menu-item{
+  background-color: #34495E;
+  color: white;
+  cursor:default;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.context-menu-item:hover{
+  background-color: #2C3E50;
+}
