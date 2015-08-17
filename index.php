@@ -10,8 +10,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" >
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-    <!-- Loading Flat UI -->
-    <link rel="stylesheet" href="./flat-ui/css/flat-ui.min.css" >
+
+    <link rel="stylesheet" href="./semantic/semantic.min.css"/>
     <link rel="stylesheet" href="./css/flyway.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -28,10 +28,6 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!--<script src="./flat-ui/js/vendor/video.js"></script>-->
-    <script src="./flat-ui/js/flat-ui.min.js"></script>
-    <script src="./flat-ui/js/application.js"></script>
 
     <div class="container">
       <div class="row">
