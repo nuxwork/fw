@@ -21,7 +21,7 @@
 
     <link rel="shortcut icon" href="https://shadowsocks.com/favicon.png">
   </head>
-  <body class="box">
+  <body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -29,42 +29,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6">设置Flyway为首页</div>
-        <div class="col-md-6">登陆</div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          搜索引擎
+        <div class="col-md-4">
+          <?php require_once 'todo.php' ?>
         </div>
-      </div>
-      <div class="row">
-        <table class="table">
-          <caption>Optional table caption.</caption>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>名站</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="row">
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-6">.col-md-6</div>
+        <div class="col-md-8">
+          
+        </div>
       </div>
     </div>
   </body>
