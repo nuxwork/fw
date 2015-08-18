@@ -1,29 +1,15 @@
-{#
-<div id="wer" class="fly-todo" style="margin:50px;">
+<div class="fly-todo-container" style="margin:50px;">
+  <table class="fly-todo">
+    
+    {% for todo in todos %}
+    <tr class="fly-todo-item" data-toggle="context" data-target="#id-todo-menu">
+      <td><img class="fly-todo-priority" src="./img/todo/todo-priority-{{ todo.priority }}.png"></td>
+      <td style="padding-right:10px;">{{ todo.name }}</td>
+    </tr>
+    {% endfor %}  
 
-  {% set i = 0 %}
-  {% for todo in todos %}
-  {% set i += 1 %}
-  <div id="id-todo-{{ todo.id }}" class="fly-todo-item" data-toggle="context" data-target="#id-todo-menu">
-    <img class="fly-todo-priority" src="./img/todo/todo-priority-{{ todo.priority }}.png">
-    <span class="fly-todo-name">{{ todo.name }}</span>
-  </div>
-  <!--<div class="fly-divider-horizantal"></div>-->
-  {% endfor %}  
-
+  </table>
 </div>
-#}
-
-<table class="table table-hover" style="margin:50px;">
-  
-  {% for todo in todos %}
-  <tr>
-    <td><img src="./img/todo/todo-priority-{{ todo.priority }}.png"></td>
-    <td>{{ todo.name }}</td>
-  </tr>
-  {% endfor %}  
-
-</table>
 
 <div id="id-todo-menu">
   <ul class="dropdown-menu context-menu" role="menu">
@@ -42,7 +28,7 @@
 </script>
 
 <script type="text/javascript">
-  $('.fly-todo').mCustomScrollbar({
+  $('.fly-todo-container').mCustomScrollbar({
     scrollButtons:{enable:true},
     theme:"light-thick",
     scrollbarPosition:"outside"
