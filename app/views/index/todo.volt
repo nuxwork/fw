@@ -4,7 +4,7 @@
   {% for todo in todos %}
   {% set i += 1 %}
   <div id="id-todo-{{ todo.id }}" class="fly-todo-item" data-toggle="context" data-target="#id-todo-menu">
-    <img class="fly-todo-priority" src="./img/todo/todo-priority-1.png">
+    <img class="fly-todo-priority" src="./img/todo/todo-priority-{{ todo.priority }}.png">
     <span class="fly-todo-name">{{ todo.name }}</span>
   </div>
 
