@@ -19,7 +19,7 @@
 
 
       <!-- Le styles -->
-      <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.css">
+      <link rel="stylesheet" href="./css/prettify.css">
       <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
       <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,19 +28,22 @@
 
       <!-- semantic-ui -->
       <link rel="stylesheet" href="./semantic/semantic.min.css"/>
+      <!-- CustomScrollbar -->
+      <link rel="stylesheet" href="./css/jquery.mCustomScrollbar.css">
 
       <!-- flyway -->
       <link rel="stylesheet" href="./css/flyway.css"/>
 
-      <link rel="shortcut icon" href="https://shadowsocks.com/favicon.png">
+      <link rel="shortcut icon" href="./img/favicon.png">
     </head>
     <body>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.js"></script>
+      <script src="./js/prettify.js"></script>
       <script src="./js/bootstrap-contextmenu.js"></script>
+      <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
 
       {{ content() }}
     </body>
