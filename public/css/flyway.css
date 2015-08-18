@@ -45,6 +45,13 @@
   margin-top: -3px;
 }
 
+.fly-todo-name{
+  width: 100%;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .context-menu{
   background-color: #34495E;
   color: white;
