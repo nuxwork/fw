@@ -6,7 +6,7 @@
       <td><img class="fly-todo-priority" src="./img/todo/todo-priority-{{ todo.priority }}.png"></td>
       <td style="padding-right:10px;">{{ todo.name }}</td>
     </tr>
-    {% endfor %}  
+    {% endfor %}
 
   </table>
 </div>
@@ -18,20 +18,4 @@
     <li id="id-todo-menu-delete" class="context-menu-item" oncontextmenu='return false'>删除</li>
   </ul>
 </div>
-
-<script type="text/javascript">
-  $('.fly-todo-item').contextmenu({
-    onItem: function (context, e) {
-      alert($(e.target).text());
-    }
-  });
-</script>
-
-<script type="text/javascript">
-  $('.fly-todo-container').mCustomScrollbar({
-    scrollButtons:{enable:true},
-    theme:"light-thick",
-    scrollbarPosition:"outside"
-  });
-</script>
  
