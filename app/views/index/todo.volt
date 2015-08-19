@@ -18,4 +18,3 @@
     <li id="id-todo-menu-delete" class="context-menu-item" oncontextmenu='return false'>删除</li>
   </ul>
 </div>
- 
