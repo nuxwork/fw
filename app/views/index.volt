@@ -8,7 +8,8 @@
       <title>Flyway</title>
 
       <!-- Bootstrap -->
-      <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+      <!--<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" >-->
+      <link rel="stylesheet" href="./css/bootstrap.min.css" >
       <!--<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,9 +39,11 @@
     </head>
     <body>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+      <script src="./js/jquery.min.js"></script>
+      <!--<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>-->
       <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <!--<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
       <!--<script src="./js/prettify.js"></script>-->
       <script src="./js/bootstrap-contextmenu.js"></script>
       <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
