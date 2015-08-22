@@ -63,6 +63,17 @@ $di->set('db', function () use ($config) {
     return new DbAdapter($config->database->toArray());
 });
 
+
+$di->set('mongo', function () {
+    $mongo = new MongoClient();
+    return $mongo->selectDB("flyway");
+}, true);
+
+
+$di->set('collectionManager', function(){
+  return new Phalcon\Mvc\Collection\Manager();
+}, true);
+
 /**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise
  */
