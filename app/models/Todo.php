@@ -1,61 +1,18 @@
 <?php
 
-class Todo extends \Phalcon\Mvc\Collection
+class Todo extends ImpObject
 {
+    public $title;
 
-    /**
-     *
-     * @var integer
-     */
-    public $id;
-
-    /**
-     *
-     * @var string
-     */
-    public $name;
-
-    /**
-     *
-     * @var string
-     */
-    public $subject;
-
-    /**
-     *
-     * @var string
-     */
     public $content;
 
-    /**
-     *
-     * @var integer
-     */
     public $priority;
 
-    /**
-     *
-     * @var string
-     */
-    public $start_time;
+    public $beginAt;
 
-    /**
-     *
-     * @var string
-     */
-    public $end_time;
-
-    /**
-     *
-     * @var string
-     */
-    public $finish_time;
-
-    /**
-     *
-     * @var string
-     */
-    public $create_time;
+    public $endAt;
+    
+    public $finishedAt;
 
     /**
      * Returns table name mapped in the model.

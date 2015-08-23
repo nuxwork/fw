@@ -60,13 +60,13 @@ $di->setShared('view', function () use ($config) {
  * Database connection is created based in the parameters defined in the configuration file
  */
 $di->set('db', function () use ($config) {
-    return new DbAdapter($config->database->toArray());
+    return new DbAdapter($config->database->mysql->toArray());
 });
 
 
-$di->set('mongo', function () {
+$di->set('mongo', function() use ($config) {
     $mongo = new MongoClient();
-    return $mongo->selectDB("flyway");
+    return $mongo->selectDB($config->database->mongo->dbname);
 }, true);
 
 
